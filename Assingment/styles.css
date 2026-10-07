@@ -28,10 +28,12 @@ nav{
 .trending h2{font-size: 30px; margin-bottom: 30px; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 /* MOVIES */
 .movies{display: flex; gap: 30px; overflow: hidden; padding: 20px; }
+.movies img:hover{transform: scale(1.1); transition: 1s;} 
 /* EACH MOVIE */
 .movie{position: relative; min-width: 180px;}
 .movie span{position: absolute; left: -20px; bottom: -15px; font-size: 100px; font-weight: bold; color: black; -webkit-text-stroke: 3px white; z-index: 2; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 .movie img{height: 260px; width: 180px; object-fit: cover; border-radius: 8px;}
+.movie:hover span{transform: scale(1.1); transition: 0.3s ease-in-out;}
 /* MORE REASONS */
 .reasons{Padding: 30px 8% 80px; background-color: black; margin: top 50px;}
 .reasons h2{font-size: 28px; margin-bottom: 25px; color:white ; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
